@@ -1,0 +1,221 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#tong-menu {
+    background-color: orangered;
+    width: 100%;
+    z-index: 30;
+}
+
+.khung-menu {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+
+/* logo */
+
+.logo {
+    width: 280px;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+    padding-right: 70px;
+    margin-top: 10px;
+}
+
+
+/*tim kiem*/
+
+#tim-kiem {
+    width: 450px;
+    float: left;
+    margin-top: 25px;
+    padding-left: 50px;
+}
+
+.o-tim-kiem {
+    width: 450px;
+    height: 48px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    padding-left: 10px;
+}
+
+.chu-timkiem {
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: orange;
+    background: rgb(34, 74, 204);
+    margin-left: -105px;
+    margin-top: 2px;
+    float: left;
+}
+
+.chu-timkiem:hover {
+    background: rgb(149, 106, 219);
+    color: black;
+}
+
+.call {
+    width: 300px;
+    height: 50px;
+    margin-top: 25px;
+    float: right;
+}
+
+img {
+    float: left;
+    padding-left: 70px;
+}
+
+.call .goi {
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.dong2 {
+    width: 1100px;
+    height: 30px;
+    padding-top: 10px;
+    float: left;
+    padding-left: 200px;
+}
+
+
+/* menu 2 cấp */
+
+.menu>li {
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.menu>li>a {
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.menu li {
+    position: relative;
+    list-style: none;
+}
+
+.menu li a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+.cap2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 2;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.cap2 li a {
+    line-height: 30px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.menu li:hover>.cap2 {
+    display: block;
+}
+
+.menu li a:hover {
+    /* background-color: rgb(117, 5, 5); */
+    color: black;
+}
+
+.cap2 li a:hover {
+    color: red;
+}
+
+.menu>li>.cap2 {
+    top: 15px;
+    left: 0;
+}
+
+#phaidong2 {
+    width: 50px;
+    margin-right: 100px;
+    display: inline-block;
+    padding-left: 50px;
+    margin-top: -10px;
+    position: relative;
+}
+
+#phaidong2 img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: -10px;
+    margin-left: -150px;
+}
+
+#phaidong2 li {
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-left: 1px solid #FF8B5E;
+    margin-left: -15px;
+}
+
+#phaidong2 li:hover {
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+#phaidong2 li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#phaidong2 li a:hover {
+    color: black;
+}
+
+.hien-thi-so-luong-gio {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(11, 70, 122);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: none;
+}

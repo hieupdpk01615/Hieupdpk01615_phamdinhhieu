@@ -1,0 +1,11 @@
+.khungsl {
+    background-color: orange;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.anh-slider {
+    width: 1100px;
+    margin: 0 auto;
+    padding-left: calc((100% - 1100px)/2);
+}

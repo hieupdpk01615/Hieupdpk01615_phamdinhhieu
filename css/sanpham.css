@@ -1,0 +1,72 @@
+.hien-thi-san-pham {
+    width: calc((4*200px + 30px));
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.san-pham {
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 200px;
+    height: 320px;
+    border: 1px solid rgb(211, 209, 209);
+}
+
+.top-san-pham {
+    height: 600px;
+    width: calc((4*200px + 30px) + 15px);
+    overflow-y: scroll;
+    margin-bottom: 50px;
+}
+
+.hinh-anh-san-pham {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hinh-anh-san-pham img {
+    max-width: 90%;
+    max-height: 90%;
+    padding: 0px 0px 0px 0px;
+    margin: 0 auto;
+}
+
+.giam-gia {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgb(187, 42, 42);
+    position: absolute;
+    top: 5px;
+    left: calc(100% - 40px);
+}
+
+.gia-goc-san-pham {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+}
+
+.them-gio {
+    height: 30px;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(185, 95, 53);
+    color: #fff;
+    cursor: pointer;
+}
+
+.them-gio:hover {
+    background-color: rgb(133, 68, 38);
+}

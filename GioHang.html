@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASMJS_HIEUPDPK01615</title>
+    <link rel="stylesheet" href="css/clean.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/giohang.css">
+    <script src="js/hotro.js"></script>
+    <script src="https://kit.fontawesome.com/f20d460fd9.js" crossorigin="anonymous"></script>
+    
+
+
+   
+</head>
+
+<body>
+     <!-- phan tren -->
+     <header>
+        <div id="tong-menu">
+            <div class="khung-menu">
+                <div class="dong-1">
+                    <div class="logo">
+                        <a href="#"><img width="240px" height="100px" src="css/images/logo.png"></a>
+                    </div>
+                    <!--search-->
+                    <div id="tim-kiem">
+                        <form>
+                            <input class="o-tim-kiem" type="text" name="text" placeholder="Tìm kiếm...">
+                            <input class="chu-timkiem" type="button" name="submit" value="TÌM KIẾM">
+                        </form>
+
+                    </div>
+                    <div class="call">
+                        <img width="50" height="50" src="css/images/call.png">
+                        <div class="goi">
+                            <p>Gọi Ngay</p>
+                            <p>0905190005</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="dong2">
+                    <ul class="menu">
+                        <li>
+                            <a href="trangchu.html"> Trang Chủ</a>
+                        </li>
+                        <li>
+                            <a href="#"> cửa hàng</a>
+                        </li>
+                        <li>
+                            <a href="#"> QUẦN ÁO</a>
+                            <ul class="cap2">
+                                <li>
+                                    <a href="#">NAM</a>
+                                </li>
+                                <li>
+                                    <a href="#">NỮ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"> GIÀY DÉP</a>
+                            <ul class="cap2">
+                                <li>
+                                    <a href="#">NAM</a>
+                                </li>
+                                <li>
+                                    <a href="#">NỮ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"> ĐỒNG Hồ</a>
+                            <ul class="cap2">
+                                <li>
+                                    <a href="#">NAM</a>
+                                </li>
+                                <li>
+                                    <a href="#">NỮ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="themsanpham.html"> Thêm Sản Phẩm</a></li>
+
+                    </ul>
+                    <div id="phaidong2">
+                        <div class="gio-hang">
+                            <div class="hien-thi-so-luong-gio" id="soLuongGio"></div>
+                            <a href="GioHang.html"> 
+                                <img src="css/images/giohang.png">
+                            </a>
+                        </div>
+                        <li><a href="GioHang.html"><i class="fas fa-shopping-bag"></i>&nbspGiỏ hàng</a></li>
+                        <li><a href="signup.html"><i class="fas fa-user-alt"></i>&nbspĐăng nhập</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="giohang" id="giohang">
+            <h1 class="tieude">Danh Sách Sản Phẩm</h1>
+    
+            <div class="item-gio-hang giohangitemtieude">
+                  <div class="hinhAnh"></div>
+                  <p class="ten">Sản Phẩm</p>  
+                  <div class="gia">Đơn Giá </div>
+                  <div class="soLuong"> Số Lượng</div>
+                  <p class="tongTien">Tổng Tiền</p> 
+                  <div class="hanhh-dong">
+                      <p>Thao Tác</p>
+                  </div>  
+          </div>  
+        </div>
+
+    <!-- ffffffffffffffrrrrrrrrrrrrrrrrrooooooooooommmmmmm -->
+    <div class='form'>
+        <h1 class="muahang">Mua Hàng</h1>
+        <label for='hoTen'>Họ tên:</label>
+        <input type="text" id="hoTen">
+        <!--thông báo lỗi-->
+        <label id="thongBaoloiChoHoTen" for='hoTen' class="error"></label>
+
+        <label for='soDienThoai'>Số điện thoại:</label>
+        <input type="number" id="soDienThoai">
+        <label id="thongBaoloiChoSDT" for='SoDienThoai' class="error"></label>
+
+        <label for='gmail'>Gmail:</label>
+        <input type="text" id="gmail">
+        <label id="thongBaoloiChoGmail" for='gmail' class="error"></label>
+
+        <label for='ngaySinh'>Ngày Sinh:</label>
+        <input type="number" id="ngaySinh">
+        <label id="thongBaoloiChoNgaySinh" for='ngaySinh' class="error"></label>
+
+        <label for='thoiGian'>Thời gian nhận hàng trong ngày từ 8h-18h:</label>
+        <input type="number" id="thoiGian">
+        <label id="thongBaoloiChoThoiGian" for='thoiGian' class="error"></label>
+
+
+
+        <button onclick="dangKy() " class="btn"> Mua Hàng</button>
+    </div>
+</section>   
+    
+</body>
+    <script src="js/giohang.js"></script>
+</html>

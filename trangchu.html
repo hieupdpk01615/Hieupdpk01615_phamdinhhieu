@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASMJS_HIEUPDPK01615</title>
+    <link rel="stylesheet" href="css/clean.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/sanpham.css">
+    <link rel="stylesheet" href="css/than.css">
+</head>
+
+<body>
+    <!-- phan tren -->
+    <header>
+        <div id="tong-menu">
+            <div class="khung-menu">
+                <div class="dong-1">
+                    <div class="logo">
+                        <a href="#"><img width="240px" height="100px" src="css/images/logo.png"></a>
+                    </div>
+                    <!--search-->
+                    <div id="tim-kiem">
+                        <form>
+                            <input class="o-tim-kiem" type="text" name="text" placeholder="Tìm kiếm...">
+                            <input class="chu-timkiem" type="button" name="submit" value="TÌM KIẾM">
+                        </form>
+
+                    </div>
+                    <div class="call">
+                        <img width="50" height="50" src="css/images/call.png">
+                        <div class="goi">
+                            <p>Gọi Ngay</p>
+                            <p>0905190005</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="dong2">
+                    <ul class="menu">
+                        <li>
+                            <a href="trangchu.html"> Trang Chủ</a>
+                        </li>
+                        <li>
+                            <a href="#"> cửa hàng</a>
+                        </li>
+                        <li>
+                            <a href="#"> QUẦN ÁO</a>
+                            <ul class="cap2">
+                                <li>
+                                    <a href="#">NAM</a>
+                                </li>
+                                <li>
+                                    <a href="#">NỮ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"> GIÀY DÉP</a>
+                            <ul class="cap2">
+                                <li>
+                                    <a href="#">NAM</a>
+                                </li>
+                                <li>
+                                    <a href="#">NỮ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"> ĐỒNG Hồ</a>
+                            <ul class="cap2">
+                                <li>
+                                    <a href="#">NAM</a>
+                                </li>
+                                <li>
+                                    <a href="#">NỮ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="themsanpham.html"> Thêm Sản Phẩm</a></li>
+
+                    </ul>
+                    <div id="phaidong2">
+                        <div class="gio-hang">
+                            <div class="hien-thi-so-luong-gio" id="soLuongGio"></div>
+                            <a href="GioHang.html"> 
+                                <img src="css/images/giohang.png">
+                            </a>
+                        </div>
+                        <li><a href="GioHang.html"><i class="fas fa-shopping-bag"></i>&nbspGiỏ hàng</a></li>
+                        <li><a href="signup.html"><i class="fas fa-user-alt"></i>&nbspĐăng nhập</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- phan than -->
+    <section>
+        <div class="khungsl">
+            <div class="slider">
+                <div>
+                    <img width="1100px" src="css/images/banera/1.jpg" class="anh-slider">
+                </div>
+                <div>
+                    <img width="1100px" src="css/images/banera/2.png" class="anh-slider">
+                </div>
+                <div>
+                    <img width="1100px" src="css/images/banera/3.jpg" class="anh-slider">
+                </div>
+                <div>
+                    <img width="1100px" src="css/images/banera/4.jpg" class="anh-slider">
+                </div>
+            </div>
+        </div>
+        <div class="khung-2">
+            <div class="chu">
+                <img src="css/images/top.jpg">
+                <a> Top Bán chạy </a>
+            </div> 
+        </div>
+        <div class = "hr-ngang"> </div>
+        <div class="hien-thi-san-pham top-san-pham" id = "hienThiTopSanPham"></div>
+        <div class="khung-2">
+            <div class="chu">
+                <img src="css/images/top.jpg">
+                <a> Sản Phẩm </a>
+            </div> 
+        </div>
+        <div class = "hr-ngang"> </div>
+        <div id="hienThiSanPham" class="hien-thi-san-pham"></div>
+    </section>
+
+    <!-- Script Slider -->
+    <script>
+        $(document).ready(function() {
+            $('.slider').bxSlider({
+                speed: 500,
+                auto: true,
+                autoHover: true,
+            });
+        });
+    </script>
+    <script src="js/hotro.js"></script>
+    <script src="js/trangchu.js"></script>
+</body>
+
+</html>
